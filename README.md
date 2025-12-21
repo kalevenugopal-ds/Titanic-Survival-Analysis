@@ -2,6 +2,7 @@
 ## Project Overview
 This project performs **Exploratory Data Analysis (EDA)** on the Titanic dataset to understand the key factors that influenced passenger survival during the disaster.
 The analysis focuses on demographic and socio-economic features such as **gender, age, and passenger class**.
+This project demonstrates an end-to-end data science workflow including **data cleaning, exploratory data analysis, and machine learning**.
 ## Objectives
 - Understand the structure of the Titanic dataset
 - Identify missing values and data distributions
@@ -40,6 +41,29 @@ The analysis focuses on demographic and socio-economic features such as **gender
 - Feature engineering
 - Machine learning models (Logistic Regression, Decision Tree)
 - Survival prediction
+# Machine Learning Model – Logistic Regression
+## 🔹 Model Objective
+The goal of this model is to predict whether a passenger survived the Titanic disaster based on demographic and travel-related features.
+## 🔹 Features Used
+- Passenger Class (Pclass)
+- Sex (Sex)
+- Age (Age)
+- Fare (Fare)
+- Port of Embarkation (Embarked)
+- Categorical variables were encoded using:
+- Label Encoding for Sex
+- One-Hot Encoding for Embarked
+## 🔹 Model Training
+- **Model**: Logistic Regression
+- **Train–Test Split**: 80% training, 20% testing
+- **Random State**: 42
+## 🔹 Model Performance
+- **Accuracy**: ~79.9%
+- **True Positives**: 55
+- **True Negatives**: 88
+- The model performed well for a baseline classifier and demonstrated the impact of **gender and passenger class** on survival prediction.
+## 🔹 Evaluation Summary
+Although the dataset is imbalanced, Logistic Regression achieved strong performance without complex tuning. Further improvements could be made using additional models and evaluation metrics.
 ## Author
 **Venugopal Kale**
 Aspiring Data Scientist
