@@ -51,8 +51,8 @@ The goal of this model is to predict whether a passenger survived the Titanic di
 - Fare (Fare)
 - Port of Embarkation (Embarked)
 - Categorical variables were encoded using:
-- Label Encoding for Sex
-- One-Hot Encoding for Embarked
+  - Label Encoding for Sex
+  - One-Hot Encoding for Embarked
 ## 🔹 Model Training
 - **Model**: Logistic Regression
 - **Train–Test Split**: 80% training, 20% testing
